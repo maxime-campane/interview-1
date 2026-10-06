@@ -1,0 +1,13 @@
+doc-wobee/
+api/upload/
+node_modules/
+dist/
+.env.*
+!.env.example
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.log
+*.tsbuildinfo
+.DS_Store
