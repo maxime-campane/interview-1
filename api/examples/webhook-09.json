@@ -1,0 +1,6 @@
+{
+  "eventId": "evt-009",
+  "type": "user.deleted",
+  "occurredAt": "2026-10-01T12:30:00.000Z",
+  "data": { "id": "ext-101" }
+}

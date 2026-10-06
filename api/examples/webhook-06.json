@@ -1,0 +1,13 @@
+{
+  "eventId": "evt-006",
+  "type": "user.created",
+  "occurredAt": "2026-10-01T09:30:00.000Z",
+  "data": {
+    "id": "ext-100",
+    "firstName": " Alice ",
+    "lastName": " Martin ",
+    "email": " Alice@EXAMPLE.test ",
+    "birthdate": "1988-04-12",
+    "phone": "06 12 34 56 78"
+  }
+}

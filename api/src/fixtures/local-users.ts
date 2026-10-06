@@ -1,0 +1,48 @@
+import { User } from '../users/user.model';
+
+export const LOCAL_USERS: User[] = [
+  {
+    id: 'user-alice',
+    firstName: 'Alice',
+    lastName: 'Martin',
+    email: 'alice@example.test',
+    pictureUrl: '',
+    birthdate: new Date('1988-04-12T00:00:00.000Z'),
+    phone: '+33612345678',
+    createdAt: new Date('2026-01-10T09:00:00.000Z'),
+    deletedAt: null,
+  },
+  {
+    id: 'user-bob',
+    firstName: 'Bob',
+    lastName: 'Durand',
+    email: 'bob@example.test',
+    pictureUrl: '',
+    birthdate: null,
+    phone: '+33712345678',
+    createdAt: new Date('2026-02-03T10:00:00.000Z'),
+    deletedAt: null,
+  },
+  {
+    id: 'user-carole',
+    firstName: 'Carole',
+    lastName: 'Petit',
+    email: 'carole@example.test',
+    pictureUrl: '',
+    birthdate: new Date('1992-11-21T00:00:00.000Z'),
+    phone: '+33687654321',
+    createdAt: new Date('2026-03-06T11:00:00.000Z'),
+    deletedAt: null,
+  },
+  {
+    id: 'user-emma',
+    firstName: 'Emma',
+    lastName: 'Bernard',
+    email: 'emma@example.test',
+    pictureUrl: '',
+    birthdate: null,
+    phone: null,
+    createdAt: new Date('2026-02-01T08:00:00.000Z'),
+    deletedAt: new Date('2026-09-15T14:00:00.000Z'),
+  },
+];

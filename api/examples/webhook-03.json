@@ -1,0 +1,9 @@
+{
+  "eventId": "evt-003",
+  "type": "user.updated",
+  "occurredAt": "2026-10-01T11:00:00.000Z",
+  "data": {
+    "id": "ext-100",
+    "phone": null
+  }
+}

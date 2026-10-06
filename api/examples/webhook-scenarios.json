@@ -1,0 +1,11 @@
+[
+  { "key": "create", "title": "Création avec espaces, casse et téléphone national", "files": ["webhook-01.json"] },
+  { "key": "existing-email", "title": "Email déjà présent avec une autre casse", "files": ["webhook-06.json"] },
+  { "key": "replay", "title": "Même événement envoyé deux fois", "files": ["webhook-01.json", "webhook-01.json"] },
+  { "key": "duplicate", "title": "Deux événements pour le même utilisateur externe", "files": ["webhook-01.json", "webhook-07.json"] },
+  { "key": "contact-conflict", "title": "Email de Carole et téléphone de Bob", "files": ["webhook-08.json"] },
+  { "key": "update", "title": "Rapprochement, changement d’email puis téléphone explicitement vide", "files": ["webhook-06.json", "webhook-02.json", "webhook-03.json"] },
+  { "key": "delete", "title": "Création, suppression puis ancienne modification reçue en retard", "files": ["webhook-01.json", "webhook-09.json", "webhook-10.json"] },
+  { "key": "deleted-account", "title": "Email appartenant à un utilisateur supprimé localement", "files": ["webhook-11.json"] },
+  { "key": "invalid", "title": "Email, prénom, date et téléphone invalides, testés séparément", "files": ["webhook-12.json", "webhook-13.json", "webhook-14.json", "webhook-15.json"] }
+]

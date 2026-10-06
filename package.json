@@ -1,0 +1,25 @@
+{
+  "name": "interview-1",
+  "private": true,
+  "packageManager": "pnpm@11.1.1",
+  "engines": { "node": ">=24 <25" },
+  "scripts": {
+    "dev": "pnpm --parallel --filter interview-1-api --filter interview-1-web run dev",
+    "dev:api": "pnpm --filter interview-1-api dev",
+    "dev:web": "pnpm --filter interview-1-web dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "start:api": "pnpm --filter interview-1-api start",
+    "send-webhook:all": "pnpm --filter interview-1-api send-webhook:all",
+    "send-webhook:list": "pnpm --filter interview-1-api send-webhook:list",
+    "send-webhook:create": "pnpm --filter interview-1-api send-webhook:create",
+    "send-webhook:existing-email": "pnpm --filter interview-1-api send-webhook:existing-email",
+    "send-webhook:replay": "pnpm --filter interview-1-api send-webhook:replay",
+    "send-webhook:duplicate": "pnpm --filter interview-1-api send-webhook:duplicate",
+    "send-webhook:contact-conflict": "pnpm --filter interview-1-api send-webhook:contact-conflict",
+    "send-webhook:update": "pnpm --filter interview-1-api send-webhook:update",
+    "send-webhook:delete": "pnpm --filter interview-1-api send-webhook:delete",
+    "send-webhook:deleted-account": "pnpm --filter interview-1-api send-webhook:deleted-account",
+    "send-webhook:invalid": "pnpm --filter interview-1-api send-webhook:invalid"
+  }
+}

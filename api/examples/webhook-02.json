@@ -1,0 +1,10 @@
+{
+  "eventId": "evt-002",
+  "type": "user.updated",
+  "occurredAt": "2026-10-01T10:00:00.000Z",
+  "data": {
+    "id": "ext-100",
+    "lastName": "Dupont",
+    "email": "alice.dupont@example.test"
+  }
+}
